@@ -1,0 +1,11 @@
+componentA:
+  connect_to: 127.0.0.1
+  port: 12345
+  num_of_devices: 1
+
+componentB:
+  output_file: output.avro
+  ip_whitelist:
+    - 127.0.0.1
+  listen_on: 0.0.0.0
+  port: 12345

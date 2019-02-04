@@ -1,0 +1,9 @@
+.idea
+.ipynb_checkpoints
+.pytest_cache
+__pycache__
+.eggs
+*.egg-info
+.ipynb_checkpoints
+output.avro
+unittest.avro

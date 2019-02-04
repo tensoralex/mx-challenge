@@ -1,0 +1,12 @@
+{"namespace": "output.avro",
+ "type": "record",
+ "name": "eyegaze",
+ "fields": [
+     {"name": "timestamp", "type": "long"},
+     {"name": "id",  "type": "int", "default": 0},
+     {"name": "confidence",  "type": "float", "default": 0},
+     {"name": "normalizedX",  "type": "float", "default": 0},
+     {"name": "normalizedY",  "type": "float", "default": 0},
+     {"name": "pupildiameter",  "type": "int", "default": 0}
+ ]
+}
