@@ -4,7 +4,7 @@
 ## Pre-reqs:
 
 - Python 3.7
-- Anaconda
+- Anaconda or Miniconda
 
 ## Installation:
 
@@ -76,7 +76,7 @@ Parameter ```ip_whitelist``` in the config.yaml determines from which IPs messag
 - Component A reads simulated messages (from eye tracker) and stores them into internal queue.
 - Once connected to the server it will push messages to Component B.
 
-- Component B accumulates messages and flushes them every 10 seconds into AVRO file.
+- Component B accumulates messages into another buffer and flushes them every 10 seconds into AVRO file.
 
 ### Message Format:
 - Timestamp : Seconds: Int64U, Nanoseconds: Int32U
