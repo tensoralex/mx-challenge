@@ -46,8 +46,8 @@ componentB:
 
 ### Run application:
 
-Component B needs to be started first.
-
+- Component B needs to be started first.
+- Component A needs to be started second.
 
 ```
 python run_componentB.py
